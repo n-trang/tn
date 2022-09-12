@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@430&display=swap');
+
+
+.container {
+    margin: auto;
+    max-width: 650px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+  .nav-link-item {
+    padding-right: 2rem;
+    margin: auto;
+
+  }
+  .nav-link-item :hover {
+    color: white;
+    background-color: green;
+
+  }
+
+  .nav-link-text {
+    color: green;
+    font-family: ' Inconsolata', monospace;
+  }
+h1, h2, h3, h4, h5 {
+  font-family: 'Inconsolata', monospace;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
