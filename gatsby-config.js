@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://trang17.github.io",
-    title: "tn",
+    siteUrl: "https://n-trang.github.io",
+    title: "nguyen trang",
   },
   plugins: [
     `gatsby-plugin-mdx`,
@@ -12,5 +12,8 @@ module.exports = {
         path: `${__dirname}/src/pages/blog`,
       }
     },
+    'gatsby-transformer-sharp',
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
   ],
 };

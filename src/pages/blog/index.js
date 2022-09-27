@@ -1,11 +1,13 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
+import Center from '../../components/center';
+
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="Trang | Blog">
-      <h2>Some writing / translation.</h2>
+    <Layout pageTitle="trang | blog">
+      <Center><h2>Some writing / translation 🎺</h2></Center>
       {
         data.allMdx.nodes.map(node => (
           <article key={node.id}>
