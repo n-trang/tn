@@ -7,7 +7,7 @@ import Center from '../../components/center';
 const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="trang | blog">
-      <Center><h2>Some writing / translation 🎺</h2></Center>
+      <h2>I write/ translate stuffs I find interesting.</h2>
       {
         data.allMdx.nodes.map(node => (
           <article key={node.id}>
