@@ -16,25 +16,9 @@ const HomePage = ({ data }) => {
           </a>
           .
         </li>
-        <li>I love humour,</li>
+        <li>I love humor,</li>
         <li>and photography.</li>
       </ul>
-
-      {/* <h2>My working/ learning process</h2>
-      <ul>
-        <li>Learn the fundamentals/ how things work.</li>
-        <li>Doing projects. I find doing is the best way to learn.</li>
-        <li>
-          Write things down along the way.
-          <p>
-            I'm always hopeful that I understand more as I write, sometimes that happens. Sometimes though, it's the realization that I don't
-            understand <i>that</i> much. 
-          </p>
-          <p>
-            Yeah I find it's hard. Still that's a good way to move further. 
-          </p>
-        </li>
-      </ul> */}
 
       <h2>Projects</h2>
       <p>I try to learn the fundamentals and apply them in projects.</p>
